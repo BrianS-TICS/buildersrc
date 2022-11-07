@@ -1,0 +1,20 @@
+.titulo-pagina {
+  font-style: italic;
+  text-align: left;
+
+  span {
+    font-weight: bold;
+  }
+}
+
+.navegacion{
+  a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1rem;
+    &:hover{
+      color: #ffffffb6;
+    }
+  }
+}
+

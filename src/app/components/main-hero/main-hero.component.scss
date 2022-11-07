@@ -1,0 +1,37 @@
+.hero {
+  height: 22rem;
+  width: 100%;
+  background-image: linear-gradient(90deg, rgba(2, 0, 36, 0.39) 0%, rgba(9, 9, 121, 0.39) 35%, rgba(0, 213, 255, 0.39) 100%), url(../../../assets/tablets.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @media (min-width : 480px) {
+    width: 90%;
+    height: 32rem;
+  }
+}
+
+.titulo {
+  text-align: center;
+  padding: 1rem;
+  font-size: 2.5rem;
+  cursor: default;
+
+  @media (min-width : 480px) {
+    padding: 4rem;
+
+    font-size: 3.5rem;
+  }
+}
+
+.redondeo-inferior {
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+
+
+  @media (min-width : 480px) {
+    border-bottom-left-radius: 10rem;
+    border-bottom-right-radius: 10rem;
+  }
+}

@@ -1,0 +1,9 @@
+.icon-container{
+  position: fixed;
+  right: 2%;
+  bottom: 5%;
+
+  &:hover{
+    transform: scale(110%);
+  }
+}
