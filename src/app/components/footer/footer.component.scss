@@ -1,10 +1,28 @@
 .titulo-pagina{
-  text-align: left;
-  font-size: 4rem;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+
+  @media (min-width : 480px) {
+
+    text-align: left;
+    font-size: 4rem;
+  }
 
   font-style: italic;
 
   span {
     font-weight: bold;
+  }
+}
+
+
+.links a{
+  display: block;
+  text-decoration: none;
+  color: white;
+
+  &:hover{
+    color: aliceblue;
   }
 }

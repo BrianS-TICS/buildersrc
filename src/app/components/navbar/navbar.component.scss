@@ -7,14 +7,29 @@
   }
 }
 
-.navegacion{
-  a{
+.contenedor-navegacion {
+  display: flex;
+  justify-content: center;
+
+  @media (min-width : 580px) {
+    justify-content: space-between;
+  }
+}
+
+.navegacion {
+  a {
+    display: none;
+
+    @media (min-width: 580px) {
+      display: block;
+    }
+
     text-decoration: none;
     color: whitesmoke;
     font-size: 1rem;
-    &:hover{
+
+    &:hover {
       color: #ffffffb6;
     }
   }
 }
-
